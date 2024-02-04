@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Outx" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/secondary</item>
+         <!--<item name="colorSecondary">@color/secondary</item>-->
+    </style>
+
+    <style name="Theme.Outx" parent="Base.Theme.Outx" />
+
+    <!-- M3 elevated button style. -->
+    <style name="Widget.Material3.Button.ElevatedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="rippleColor">?attr/selectableItemBackground</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.Button.ElevatedButton</item>
+        <item name="backgroundTint">@color/secondary</item>
+    </style>
+
+    <!--Switch-->
+   <!-- <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>-->
+
+ <!--   <style name="Widget.Material3.CompoundButton.MaterialSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/mtrl_switch_thumb</item>
+        <item name="track">@color/tertiary</item>
+        <item name="trackDecoration">@drawable/mtrl_switch_tracks</item>
+    </style>
+-->
+    <!--Card View-->
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">40dp</item>
+        <item name="cornerSizeBottomLeft">40dp</item>
+    </style>
+
+    <style name="CustomBottomSheetDialog" parent="@style/Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheet</item>
+    </style>
+
+    <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="CustomShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+<!--
+    Dialog
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+       <item name="backgroundTint">@color/tertiary</item>
+       <item name="shapeAppearance">?attr/shapeAppearanceCornerExtraLarge</item>
+    </style>-->
+
+</resources>

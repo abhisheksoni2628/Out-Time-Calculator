@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OutX</string>
+    <string name="menu">Menu</string>
+    <string name="in_time">In Time</string>
+    <string name="effective_hours">Effective Hours</string>
+    <string name="gross_hours">Gross Hours</string>
+    <string name="partial_day">Partial Day</string>
+    <string name="calculate">Calculate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="break_taken">Break Taken</string>
+    <string name="out_time">Out Time</string>
+    <string name="close">Close</string>
+    <string name="developer_contact">Developer Contact</string>
+</resources>
